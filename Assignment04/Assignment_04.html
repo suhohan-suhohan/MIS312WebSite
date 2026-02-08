@@ -1,0 +1,72 @@
+<!DOCTYPE html []>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>Assignment_04.md</title>
+    <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+        </style>
+  </head>
+  <body>
+    <h1 id="mis312-assignment-4-reading-python-code-part-1">MIS312 Assignment 4 — Reading Python Code: Part 1</h1>
+    <p>
+      <strong>Book Alignment:</strong> Chapter 4<br /><strong>Primary Goal:</strong> Trace variables and loops; predict output before running code<br /><strong>Environment:</strong> JupyterLab (<code>.ipynb</code>)<br /><strong>Submission:</strong> OneNote Artifact (PDF)</p>
+    <hr />
+    <h2 id="learning-objectives">Learning Objectives</h2>
+    <p>Students will:</p>
+    <ul>
+      <li>Predict output by tracing variables step-by-step</li>
+      <li>Explain what <code>range()</code> does</li>
+      <li>Practice “read → predict → run → explain”</li>
+    </ul>
+    <hr />
+    <h2 id="student-tasks">Student Tasks</h2>
+    <h3 id="task-1-predict-before-you-run-variables">Task 1 — Predict before you run (variables)</h3>
+    <p>Create <code>assignment04_reading1.ipynb</code> and paste:</p>
+    <pre>
+      <code class="language-python">x = 5
+y = 2
+x = x + y
+y = x * 3
+print("x:", x)
+print("y:", y)
+</code>
+    </pre>
+    <ol>
+      <li>Predict output in a markdown cell.</li>
+      <li>Run the code.</li>
+      <li>Explain differences (2–3 sentences).</li>
+    </ol>
+    <h3 id="task-2-predict-before-you-run-loop">Task 2 — Predict before you run (loop)</h3>
+    <p>Paste:</p>
+    <pre>
+      <code class="language-python">total = 0
+for i in range(1, 6):
+    total = total + i
+print("total:", total)
+</code>
+    </pre>
+    <p>Predict, run, explain.</p>
+    <h3 id="task-3-modify-and-re-check">Task 3 — Modify and re-check</h3>
+    <p>Change to <code>range(1, 11)</code>, predict, then run.</p>
+    <h3 id="task-4-ai-explanation-required">Task 4 — AI explanation (required)</h3>
+    <p>Ask:</p>
+    <blockquote>
+      <p>“Explain this code step-by-step using beginner language. What does <code>range(1, 6)</code> mean?”</p>
+    </blockquote>
+    <hr />
+    <h2 id="onenote-artifact-requirements">OneNote Artifact Requirements</h2>
+    <ul>
+      <li>Predicted outputs (before running)</li>
+      <li>Screenshots of actual outputs</li>
+      <li>AI prompt + short summary</li>
+      <li>Reflection: How does predicting output help you debug later?</li>
+    </ul>
+  </body>
+</html>
